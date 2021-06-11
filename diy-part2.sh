@@ -21,9 +21,5 @@ pushd package/communit
 # passwall 
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall
 
-# 文件管理 无法编译安装 进入github下载ipk手动安装
-#git clone https://github.com/lyin888/luci-app-filebrowser.git
-git clone --depth=1 https://github.com/MonwF/luci-app-filebrowser.git
-
 #应用过滤 https://github.com/destan19/OpenAppFilter
 git clone --depth=1 https://github.com/destan19/OpenAppFilter
