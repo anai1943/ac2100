@@ -23,3 +23,5 @@ git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall
 
 #应用过滤 https://github.com/destan19/OpenAppFilter
 git clone --depth=1 https://github.com/destan19/OpenAppFilter
+
+popd
