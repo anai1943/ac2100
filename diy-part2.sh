@@ -11,15 +11,14 @@
 #
 
 # Modify default IP
-#sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
-sed -i 's/192.168.1.1/192.168.111.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.15.1/g' package/base-files/files/bin/config_generate
 
 
 
 # passwall 
 git clone https://github.com/xiaorouji/openwrt-passwall
 
-#应用过滤 https://github.com/destan19/OpenAppFilter
+# 应用过滤
 git clone https://github.com/destan19/OpenAppFilter
 
 
